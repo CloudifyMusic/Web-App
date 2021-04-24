@@ -1,5 +1,5 @@
 """
-WSGI config for cloudify_music project.
+WSGI config for astris_music project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cloudify_music.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'astris_music.settings')
 
 application = get_wsgi_application()
